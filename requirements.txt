@@ -1,0 +1,7 @@
+ijson>=3.2.3
+pydantic>=2.0.0
+rich>=13.0.0
+customtkinter>=5.2.0
+pillow>=10.0.0
+pytest>=7.0.0
+pyinstaller>=6.0.0

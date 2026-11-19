@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "torn-analyzer"
+version = "1.0.0"
+description = "Torn City Inactivity & Sleep Pattern Analysis Engine"
+requires-python = ">=3.10"
+dependencies = [
+    "ijson>=3.2.3",
+    "pydantic>=2.0.0",
+    "rich>=13.0.0",
+]
+
+[project.scripts]
+torn-analyzer = "src.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
